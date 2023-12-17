@@ -18,6 +18,7 @@ public class VideoDto {
     private String title;
     private String description;
     private String userId;
+    private String author;
     private Set<String> tags;
     private String videoUrl;
     private VideoStatus videoStatus;

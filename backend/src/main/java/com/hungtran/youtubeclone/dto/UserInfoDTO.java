@@ -20,5 +20,7 @@ public class UserInfoDTO {
     private String name;
     @JsonProperty("email")
     private String email;
+    @JsonProperty("image")
+    private String image;
 
 }

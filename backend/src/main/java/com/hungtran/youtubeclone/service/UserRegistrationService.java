@@ -47,11 +47,11 @@ public class UserRegistrationService {
                 return userBySubject.get().getId();
             }else {
                 User user = new User();
-                user.setFirstName("Hạ");
-                user.setLastName("An");
-                user.setFullName("Hạ An");
-                user.setEmailAddress("tt3107@gmail.com");
-                user.setSub("b4de143a-c189-4057-87fb-91092f49a503");
+                user.setFirstName("Sơn");
+                user.setLastName("Đòng");
+                user.setFullName("Sơn Đòng");
+                user.setEmailAddress("sontung@gmail.com");
+                user.setSub("33d7add1-b7dc-450f-85e3-c6df49ed0d07");
 
                 return userRepository.save(user).getId();
             }

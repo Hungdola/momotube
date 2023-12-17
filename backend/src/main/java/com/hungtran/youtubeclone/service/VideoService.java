@@ -46,6 +46,7 @@ public class VideoService {
         savedVideo.setTitle(videoDto.getTitle());
         savedVideo.setDescription(videoDto.getDescription());
         savedVideo.setUserId(videoDto.getUserId());
+        savedVideo.setAuthor(videoDto.getAuthor());
         savedVideo.setTags(videoDto.getTags());
         savedVideo.setThumbnailUrl(videoDto.getThumbnailUrl());
         savedVideo.setVideoStatus(videoDto.getVideoStatus());
@@ -167,6 +168,7 @@ public class VideoService {
         videoDto.setTitle(videoById.getTitle());
         videoDto.setDescription(videoById.getDescription());
         videoDto.setUserId(videoById.getUserId());
+        videoDto.setAuthor(videoById.getAuthor());
         videoDto.setTags(videoById.getTags());
         videoDto.setVideoStatus(videoById.getVideoStatus());
         videoDto.setTheloaiVideo(videoById.getTheloaiVideo());

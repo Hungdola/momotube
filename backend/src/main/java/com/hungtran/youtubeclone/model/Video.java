@@ -21,6 +21,7 @@ public class Video {
     private String title;
     private  String description;
     private  String userId;
+    private String author;
     private AtomicInteger likes = new AtomicInteger(0);//kiểu AtomicInteger thay thế cho 1 số nguyên, nó giống như bộ đếm
     private AtomicInteger disLikes = new AtomicInteger(0);
     private Set<String> tags;
